@@ -25,7 +25,7 @@ h1, h2 {font-family: cursive;
        }
 
 /* style summit using ID selector*/
-#summit {font-size: 20;
+#summit {font-family: arial;
         }
 
 /* change first h2 rule*/
