@@ -5,4 +5,20 @@ body {
    background-color: grey;
 }
 
+p {color: red;
+   line-height: 2cm;
+  }
 
+h2 {color: green;
+    line-height: 1.5cm;
+   }
+
+h1, h2 {font-family: cursive;
+       }
+
+.intro {color: purple;
+       }
+
+#summit {font-size: 20;
+        }
+   
