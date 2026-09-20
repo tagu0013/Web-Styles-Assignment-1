@@ -1,24 +1,40 @@
 /* MTM1544 Week 1: your stylesheet.
    This file is already linked from index.html. Write your rules below.
    Start by changing the body background colour and saving, to confirm the link works. */
+/* changes background color */
 body {
    background-color: grey;
 }
 
+/* change color of all paragraphs and line height*/
 p {color: red;
    line-height: 2cm;
   }
 
+/* change style of all h2 headings */
 h2 {color: green;
     line-height: 1.5cm;
    }
 
+/* group two elements and change font*/ 
 h1, h2 {font-family: cursive;
        }
 
+/* style intro paragraph differently*/
 .intro {color: purple;
        }
 
+/* style summit using ID selector*/
 #summit {font-size: 20;
         }
-   
+
+/* change first h2 rule*/
+h2 {color: yellow;
+   }
+
+/* second h2 rule*/
+h2 {color: orange;
+   }
+
+
+
