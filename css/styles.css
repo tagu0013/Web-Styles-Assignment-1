@@ -2,12 +2,38 @@
    This file is already linked from index.html. Write your rules below.
    Start by changing the body background colour and saving, to confirm the link works. */
 /* changes background color */
-body {
-   background-color: grey;
+*{box-sizing: border-box;
+}
+   body {
+   background-color: rgb(229, 217, 202);
+}
+
+.intro {
+   background-color: lightblue;
+   border: 3px solid darkblue;
+   padding: 50px;
+   border-radius: 20px;
+   margin: 60px;
+   width: 50%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.paraA {margin-bottom: 20px;
+        }
+
+.paraB {margin-top: 20px;
+        }
+
+.image {width: 100%;
+        aspect-ratio: 16/9;
+        background-color: lightpink;
+        border: 3px solid darkblue;
+         border-radius: 0px;
 }
 
 /* change color of all paragraphs and line height*/
-p {color: red;
+p {color: rgb(211, 69, 92);
    line-height: 2cm;
   }
 
@@ -21,7 +47,7 @@ h1, h2 {font-family: cursive;
        }
 
 /* style intro paragraph differently*/
-.intro {color: purple;
+.intro {color: rgb(99, 6, 99);
        }
 
 /* style summit using ID selector*/
@@ -33,7 +59,7 @@ h2 {color: yellow;
    }
 
 /* second h2 rule*/
-h2 {color: orange;
+h2 {color: rgb(149, 97, 0);
    }
 
 
