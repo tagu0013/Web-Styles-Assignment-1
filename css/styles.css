@@ -1,11 +1,18 @@
 /* MTM1544 Week 1: your stylesheet.
    This file is already linked from index.html. Write your rules below.
    Start by changing the body background colour and saving, to confirm the link works. */
+<<<<<<< HEAD
 /* changes background color */
 *{box-sizing: border-box;
 }
    body {
    background-color: beige;
+=======
+*{box-sizing: border-box;
+}
+   body {
+   background-color: rgb(229, 217, 202);
+>>>>>>> d52a8ba (week 2 changes)
 }
 
 .intro {
@@ -19,7 +26,11 @@
    margin-right: auto;
 }
 
+<<<<<<< HEAD
 .paraA {margin-bottom: 20px;
+=======
+.paraA {margin-bottom: 60px;
+>>>>>>> d52a8ba (week 2 changes)
         }
 
 .paraB {margin-top: 20px;
@@ -29,7 +40,11 @@
         aspect-ratio: 16/9;
         background-color: lightpink;
         border: 3px solid darkblue;
+<<<<<<< HEAD
          border-radius: 0px;
+=======
+         border-radius: 10px;
+>>>>>>> d52a8ba (week 2 changes)
 }
 
 /* change color of all paragraphs and line height*/
@@ -60,7 +75,11 @@ h2 {color: yellow;
 
 /* second h2 rule*/
 h2 {color: rgb(149, 97, 0);
+<<<<<<< HEAD
    }
 
 
 
+=======
+   }
+>>>>>>> d52a8ba (week 2 changes)
