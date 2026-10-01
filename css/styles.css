@@ -1,11 +1,31 @@
 /* MTM1544 Week 1: your stylesheet.
    This file is already linked from index.html. Write your rules below.
    Start by changing the body background colour and saving, to confirm the link works. */
-*{box-sizing: border-box;
+.give-you-glory-regular {
+  font-family: "Give You Glory", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+/* HSL Palette */
+--hsl-1: hsl(220 60% 90%);
+--hsl-2: hsl(220 60% 70%);
+--hsl-3: hsl(220 60% 50%);
+--hsl-4: hsl(220 60% 30%);
+/* OKLCH Palette */
+--oklch-1: oklch(0.95 0.03 250);
+--oklch-2: oklch(0.80 0.05 250);
+--oklch-3: oklch(0.65 0.10 250);
+--oklch-4: oklch(0.45 0.12 250);
+/* OKLCH appears more evenly spaced to the human eye. */
+}
+
+   *{box-sizing: border-box;
 }
    body {
-   background-color: rgb(229, 217, 202);
-}
+   background-color: beige;
+   }
 
 .intro {
    background-color: lightblue;
@@ -18,13 +38,13 @@
    margin-right: auto;
 }
 
-.paraA {margin-bottom: 20px;
+.paraA {margin-bottom: 10px;
         }
 
-.paraB {margin-top: 20px;
+.paraB {margin-top: 10px;
         }
 
-.image {width: 100%;
+.image {width: 80%;
         aspect-ratio: 16/9;
         background-color: lightpink;
         border: 3px solid darkblue;
@@ -34,7 +54,7 @@
 
 /* change color of all paragraphs and line height*/
 p {color: rgb(211, 69, 92);
-   line-height: 2cm;
+   line-height: 1.6;
   }
 
 /* change style of all h2 headings */
@@ -43,7 +63,7 @@ h2 {color: green;
    }
 
 /* group two elements and change font*/ 
-h1, h2 {font-family: cursive;
+h1, h2 {font-family: Arial;
        }
 
 /* style intro paragraph differently*/
@@ -51,7 +71,7 @@ h1, h2 {font-family: cursive;
        }
 
 /* style summit using ID selector*/
-#summit {font-family: arial;
+#summit {font-family: cursive;
         }
 
 /* change first h2 rule*/
@@ -59,6 +79,50 @@ h2 {color: yellow;
    }
 
 /* second h2 rule*/
-h2 {color: rgb(149, 97, 0);
+h2 {color: blue;
+}
 
+body {
+font-family: "Give You Glory", Arial, Helvetica, sans-serif;
+font-size: 1rem;
+line-height: 1.6;
+color: red;
+background-color: beige;
+}
+
+h1, h2, h3, h4, h5 {
+text-wrap: balance;
+line-height: 1.2;
+}
+
+h1 {
+font-size: 3rem;
+}
+h2 {
+font-size: 2.5rem;
+}
+h3 {
+font-size: 1.5rem;
+}
+h4 {
+font-size: 1.2rem;
+}
+h5 {
+font-size: 1rem;
+}
+
+.button {
+display: inline-block;
+padding: 0.75rem 1rem;
+background-color: var(--oklch-3);
+color: white;
+text-decoration: none;
+border-radius: 8px;
+}
+.button:hover {
+background-color: color-mix(
+in oklch,
+var(--oklch-3) 80%,
+black 20%
+);
 }
