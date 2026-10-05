@@ -126,3 +126,68 @@ var(--oklch-3) 80%,
 black 20%
 );
 }
+
+ /* ASSIGNMENT WEEK 4 */
+ /* Hover and focus for button */
+a:hover {
+color: lightpink;
+background-color: darkblue;
+text-decoration: underline;
+border-radius: 10px;
+}
+
+a:focus {
+outline: 3px solid orange;
+outline-offset: 4px;
+text-decoration: underline;
+}
+
+/* nth child odd and first child  */
+ul li:first-child {
+   color: red;
+   font-weight: bold;
+   background-color: lightblue;
+   text-decoration: underline;
+}
+
+ul li:nth-child(odd) {
+   background-color: lightgreen;
+}
+
+/* decorative pseudo element */
+h1::after {
+   content: "⛰️";
+   font-size: 3.5rem;
+}
+
+/* specificity experiment */
+h5 {
+   color: purple;
+}
+
+.lowest {
+   color: orange;
+}
+
+#next {
+   color: green;
+}
+/* result: ID selector #next has highest specifity */
+
+/* classes only */
+.one {
+   color: red;
+}
+.two {
+   color: blue;
+}
+.three {
+   color: green;
+}
+
+/* the last one, green is what was applied */
+
+:where(h1, h2, h3, h4, h5) {
+text-wrap: balance;
+line-height: 1.2;
+}
