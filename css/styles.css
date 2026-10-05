@@ -151,7 +151,7 @@ ul li:first-child {
 }
 
 ul li:nth-child(odd) {
-   background-color: lightgreen;
+   background-color: lightpink;
 }
 
 /* decorative pseudo element */
